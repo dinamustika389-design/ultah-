@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    background: url("bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    
+    width: 90%;
+    max-width: 550px;
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    color: #003f88;
+    box-shadow: 0 0 25px rgba(0,0,0,0.25);
+}
+
+.nama {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #0057d9;
+}
+
+.foto-anak {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 4px solid #0057d9;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.detail p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.ucapan {
+    margin-top: 20px;
+    font-size: 21px;
+    color: #002c6d;
+}
+
+.judul-gambar {
+    font-size: 22px;
+    margin-top: 25px;
+    color: #0049b7;
+    font-weight: bold;
+}
+
+.galeri {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.galeri img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #0080ff;
+}
+
+.kue {
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 3px solid #0073ff;
+}
+
+
+.my-element {
+  background-image: url('bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
